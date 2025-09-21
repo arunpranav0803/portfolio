@@ -7,7 +7,7 @@ const person = {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "DevSecOps | Security Analyst",
-  avatar: "/images/arun.jpeg",
+  avatar: "/images/arun.JPG",
   email: "arunpranav0803@gmail.com",
   location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Tamil"], // optional: Leave the array empty if you don't want to display languages
@@ -15,7 +15,8 @@ const person = {
 
 const newsletter = {
   display: true,
-  title: <>Subscribe to {person.firstName}'s Newsletter</>,
+  // title: <>Subscribe to {person.firstName}'s Newsletter</>,
+  title: <>Let’s Connect via Email</>,
   description: (
     <>
       I secure the cloud. I automate the chaos.
@@ -39,7 +40,7 @@ const social = [
   {
     name: "X",
     icon: "x",
-    link: "",
+    link: "https://x.com/arunpranav0803",
   },
   {
     name: "Email",
@@ -50,7 +51,7 @@ const social = [
 
 const home = {
   path: "/",
-  image: "/images/og/cover-01.jpg",
+  image: "/images/arun.JPG",
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
@@ -296,7 +297,7 @@ const about = {
 const blog = {
   path: "/blog",
   label: "Blog",
-  title: "Becoming a DevSecOps Engineer: My Personal Playbook",
+  title: "Mastering DevSecOps: Lessons from My Career",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route
@@ -330,35 +331,50 @@ const gallery = {
     //   orientation: "horizontal",
     // },
     {
-      src: "/images/gallery/vertical-2.jpg",
+      src: "/images/gallery/1755711924796.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/full.JPG",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/vertical-1.jpg",
+      src: "/images/gallery/1755711886703.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/1755711922135.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/IMG_1265.JPG",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    
+    {
+      src: "/images/gallery/IMG_1693.JPG",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    
+    
+    {
+      src: "/images/gallery/IMG_1723.JPG",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/vertical-3.jpg",
+      src: "/images/gallery/1755711905843.jpg",
       alt: "image",
-      orientation: "vertical",
+      orientation: "horizontal",
     },
-    {
-      src: "/images/gallery/vertical-4.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/vertical-5.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/vertical-6.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
+    
+    
   ],
 };
 

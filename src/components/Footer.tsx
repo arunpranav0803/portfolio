@@ -27,11 +27,11 @@ export const Footer = () => {
           <Text paddingX="4">Arunpranav ks</Text>
           <Text onBackground="neutral-weak">
             {/* Usage of this template requires attribution. Please don't remove the link to Once UI. */}
-            — Follow me on {}
+            — Stay Connected {}
             <SmartLink
-              href="https://www.instagram.com/im__pranavvv/"
+              href="https://www.linkedin.com/in/arunpranav-ks/"
             >
-              Instagram
+              LinkedIn
             </SmartLink>
           </Text>
         </Text>
