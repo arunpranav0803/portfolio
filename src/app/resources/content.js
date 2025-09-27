@@ -297,7 +297,7 @@ const about = {
 const blog = {
   path: "/blog",
   label: "Blog",
-  title: "Mastering DevSecOps: Lessons from My Career",
+  title: "Mastering DevSecOps : Lessons from My Career",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route
@@ -345,16 +345,16 @@ const gallery = {
       alt: "image",
       orientation: "vertical",
     },
-    // {
-    //   src: "/images/gallery/1755711886703.jpg",
-    //   alt: "image",
-    //   orientation: "horizontal",
-    // },
-    // {
-    //   src: "/images/gallery/1755711922135.jpg",
-    //   alt: "image",
-    //   orientation: "horizontal",
-    // },
+    {
+      src: "/images/gallery/1755711886703.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/1755711922135.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
     // {
     //   src: "/images/gallery/IMG_1265.JPG",
     //   alt: "image",
@@ -373,11 +373,11 @@ const gallery = {
       alt: "image",
       orientation: "vertical",
     },
-    // {
-    //   src: "/images/gallery/1755711905843.jpg",
-    //   alt: "image",
-    //   orientation: "horizontal",
-    // },
+    {
+      src: "/images/gallery/1755711905843.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
     
     
   ],
