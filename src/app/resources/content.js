@@ -335,32 +335,37 @@ const gallery = {
       alt: "image",
       orientation: "horizontal",
     },
+    // {
+    //   src: "/images/gallery/full.JPG",
+    //   alt: "image",
+    //   orientation: "vertical",
+    // },
     {
       src: "/images/gallery/full.JPG",
       alt: "image",
       orientation: "vertical",
     },
-    {
-      src: "/images/gallery/1755711886703.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/1755711922135.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/IMG_1265.JPG",
-      alt: "image",
-      orientation: "horizontal",
-    },
+    // {
+    //   src: "/images/gallery/1755711886703.jpg",
+    //   alt: "image",
+    //   orientation: "horizontal",
+    // },
+    // {
+    //   src: "/images/gallery/1755711922135.jpg",
+    //   alt: "image",
+    //   orientation: "horizontal",
+    // },
+    // {
+    //   src: "/images/gallery/IMG_1265.JPG",
+    //   alt: "image",
+    //   orientation: "horizontal",
+    // },
     
-    {
-      src: "/images/gallery/IMG_1693.JPG",
-      alt: "image",
-      orientation: "horizontal",
-    },
+    // {
+    //   src: "/images/gallery/IMG_1693.JPG",
+    //   alt: "image",
+    //   orientation: "horizontal",
+    // },
     
     
     {
@@ -368,11 +373,11 @@ const gallery = {
       alt: "image",
       orientation: "vertical",
     },
-    {
-      src: "/images/gallery/1755711905843.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
+    // {
+    //   src: "/images/gallery/1755711905843.jpg",
+    //   alt: "image",
+    //   orientation: "horizontal",
+    // },
     
     
   ],
