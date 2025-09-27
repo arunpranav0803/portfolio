@@ -20,18 +20,18 @@ export const Footer = () => {
         paddingX="16"
         gap="16"
         horizontal="space-between"
-        vertical="center"
+        vertical="center" 
       >
         <Text variant="body-default-s" onBackground="neutral-strong">
-          <Text onBackground="neutral-weak">© {currentYear} /</Text>
-          <Text paddingX="4">{person.name}</Text>
+          <Text onBackground="neutral-weak">© {currentYear} </Text>
+          <Text paddingX="4">Arunpranav ks</Text>
           <Text onBackground="neutral-weak">
             {/* Usage of this template requires attribution. Please don't remove the link to Once UI. */}
-            / Build your portfolio with{" "}
+            — Stay Connected {}
             <SmartLink
-              href="https://once-ui.com/templates/magic-portfolio"
+              href="https://www.linkedin.com/in/arunpranav-ks/"
             >
-              Once UI
+              LinkedIn
             </SmartLink>
           </Text>
         </Text>

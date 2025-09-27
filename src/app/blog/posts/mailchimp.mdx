@@ -1,108 +1,108 @@
 ---
-title: "Set up Mailchimp and collect emails"
-summary: "Set up the Mailchimp newsletter block for your Magic Portfolio."
-publishedAt: "2025-04-16"
-tag: "Magic Portfolio"
+title: "From College to Cloud : My DevOps Learning Journey"
+summary: "From not being placed in college to mastering DevOps and full-stack development – here’s how I rebuilt my career."
+image: "/images/projects/project-01/college.jpg"
+publishedAt: "2025-03-08"
+tag: "DevOps Journey"
 ---
 
-## Mailchimp account
+## The Beginning
 
-Sign up for a [Mailchimp account](https://mailchimp.com) and create a new list if you don't have one.
+I completed my **Bachelor of Engineering in Computer Science Engineering** from *Bannari Amman Institute of Technology*, located in Sathyamangalam, Tamil Nadu. During my academic journey, I developed a strong foundation in core computer science principles and programming, which fueled my passion for software development and technology.
 
-## Embed form
+Following graduation, I was determined to enhance my practical skills and industry readiness. To achieve this, in **June 2024**, I enrolled at **JSpiders**, a reputed software training institute based in Bangalore. The structured curriculum and hands-on approach at JSpiders provided me with the opportunity to bridge the gap between theoretical knowledge and real-world application, preparing me to take confident steps toward a career in software development and IT infrastructure.
 
-Create a new [embed form](https://mailchimp.com/help/add-a-signup-form-to-your-website/) and copy the form URL to your Magic Portfolio config.
+---
 
-<CodeBlock
-    highlight="2"
-    codeInstances={[
-  {
-    code:
-`const mailchimp = {
-    action: 'https://url/subscribe/post?parameters',
-    effects: {
-      ...
-    }
-};`, 
-    language: "tsx",
-    label: "src/app/resources/config.js"
-  }
-]} />
+## Full Stack Development Phase
 
-## Newsletter content
+At JSpiders, I started with **Java Full Stack** development:
 
-You can modify the headline and description in the `content.js` file.
+- **Frontend**: HTML, CSS, Bootstrap, Tailwind CSS  
+- **Backend**: Core Java, Hibernate, Servlets  
+- **Database**: MySQL  
+- **UI Library**: ReactJS  
 
-<CodeBlock
-    highlight="2"
-    codeInstances={[
-  {
-    code:
-`const newsletter = {
-    display: true,
-    title: <>Subscribe to {person.firstName}'s Newsletter</>,
-    description: (
-      <>
-        I occasionally write about design, technology, and share thoughts on the intersection of creativity and engineering.
-      </>
-    ),
-};`, 
-    language: "tsx",
-    label: "src/app/resources/content.js"
-  }
-]} />
+Alongside technical training, I practiced **aptitude** and **verbal reasoning**, which are essential for job interviews.
 
-## Background effect
+---
 
-There's a pre-configured background in `Mailchimp.tsx` that you can modify in the `mailchimp` object. Set graphic elements such as gradient, dots, lines, and grid and configure their appearance for the newsletter block.
+## My DevOps Awakening
 
-<CodeBlock
-    codeHeight={24}
-    marginBottom="16"
-    codeInstances={[
-  {
-    code:
-`const mailchimp = {
-    action: 'https://url/subscribe/post?parameters',
-    effects: {
-      mask: {
-        cursor: false,
-        x: 50,
-        y: 0,
-        radius: 100
-      },
-      gradient: {
-        display: true,
-        x: 50,
-        y: -25,
-        width: 100,
-        height: 100,
-        tilt: 0,
-        colorStart: 'accent-background-strong',
-        colorEnd: 'static-transparent',
-        opacity: 50
-      },
-      dots: {
-        display: true,
-        size: 2,
-        color: 'brand-on-background-weak',
-        opacity: 20
-      },
-      lines: {
-        display: false,
-        color: 'neutral-alpha-weak',
-        opacity: 100
-      },
-      grid: {
-        display: false,
-        color: 'neutral-alpha-weak',
-        opacity: 100,
-        width: 'var(--static-space-32)',
-        height: 'var(--static-space-32)'
-      }
-  }
-}`, 
-    language: "tsx",
-    label: "src/app/resources/config.js"
-  }
-]} />
+While learning to deploy my full-stack apps, I developed a keen interest in infrastructure and automation. This led me to explore DevOps technologies, including:
+
+- 🐧 **Linux** (fundamental commands and shell scripting)  
+- 🌐 **Networking** (OSI model, IP addressing, DNS, firewalls, NAT)  
+- ☁️ **AWS** (EC2, S3, AMI, ELB, VPC, CloudWatch, SNS, RDS, Lambda)  
+- Git (Version Control System)  
+- GitHub (Remote Repository Hosting)  
+- Maven (Build Tool)  
+- Jenkins (CI/CD Tool)  
+- Docker & DockerHub (Containerization Tool)  
+- Ansible (Configuration Management Tool)  
+- Terraform (Infrastructure as Code Tool)  
+- Kubernetes (Container Orchestration Tool – Currently Learning)  
+---
+
+## Professional Skills
+
+### Web Technologies  
+- Expert in HTML5 and CSS3, including responsive design frameworks such as Bootstrap and Tailwind CSS  
+- In-depth understanding of JavaScript concepts including hoisting, asynchronous programming (callbacks, promises, async/await), DOM, and BOM manipulation  
+- Proficient in JSON data handling  
+
+### Core Java  
+- Strong command of Object-Oriented Programming (OOP) principles  
+- Experience with method overloading, overriding, polymorphism, and typecasting  
+- Competent in exception handling, collections framework, and abstraction  
+- Skilled in writing efficient logical programs  
+
+### SQL & Database Management  
+- Solid understanding of DBMS and RDBMS principles  
+- Proficient in SQL commands: DQL, DDL, DML, DCL, and TCL  
+- Experienced with functions, views, stored procedures, subqueries, and joins  
+
+### JDBC & Hibernate  
+- Extensive experience establishing JDBC connections, drivers, and API usage  
+- Hands-on practice with CRUD operations using JDBC  
+- Strong understanding of Hibernate ORM concepts including session management and entity mapping  
+
+### Servlet Development  
+- Sound knowledge of servlet lifecycle and HTTP methods   
+- Familiar with Web application architecture and server interactions  
+
+### DevOps & Automation  
+- Proficient with AWS cloud infrastructure and services including EC2, S3, AMI, ELB, ALB, VPC, CloudWatch, SNS, RDS, and Lambda  
+- Experienced in using Git and GitHub for version control and collaboration  
+- Skilled in build automation using Maven  
+- Implemented continuous integration and delivery pipelines with Jenkins  
+- Expertise in containerization and image management using Docker and DockerHub  
+- Proficient with configuration management and automation using Ansible  
+- Comfortable working in Linux environments with shell and bash scripting  
+- Knowledgeable about web servers: Apache, Tomcat, and NGINX  
+
+---
+
+## Deployment Projects
+
+### Web Application Deployment to Apache Tomcat with Ansible
+
+- **Technologies:** AWS, Linux, Git & GitHub, Maven, Jenkins, Ansible, Apache Tomcat  
+- **Description:** Automated deployment of a web application to Apache Tomcat using Ansible for configuration management and deployment. Managed source code with Git, built application with Maven, and deployed it on an AWS-hosted Linux environment.  
+- **Outcome:** Gained hands-on experience in automating deployments and configuration management with Ansible on Apache Tomcat.   
+
+---
+
+### Web Application Deployment to Apache Tomcat with Docker and DockerHub
+
+- **Technologies:** AWS, Linux, Git & GitHub, Maven, Jenkins, Docker, DockerHub, Apache Tomcat  
+- **Description:** Automated deployment of a web application using Docker containers. Built Docker images, pushed them to DockerHub, and deployed using Jenkins on AWS-hosted Linux.  
+- **Outcome:** Learned containerization, managing Docker images, and efficient deployment to Apache Tomcat.  
+
+---
+
+## Final Thoughts
+
+The journey wasn’t linear — but every step, failure, and retry built me up. Whether you’re a recent graduate or switching careers, know that **self-learning + persistence = success**.
+
+---

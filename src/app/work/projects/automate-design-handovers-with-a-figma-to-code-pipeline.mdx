@@ -1,44 +1,54 @@
 ---
-title: "Automating Design Handovers with a Figma to Code Pipeline"
-publishedAt: "2024-04-01"
-summary: "Explore the enduring debate between using spaces and tabs for code indentation, and why this choice matters more than you might think."
+title: "Building a Secure CI/CD Pipeline: A DevSecOps Case Study"
+publishedAt: "2024-05-10"
+summary: "A real-world look at how implementing DevSecOps practices in CI/CD pipelines reduced vulnerabilities, improved developer efficiency, and strengthened compliance."
 images:
-  - "/images/projects/project-01/cover-02.jpg"
-  - "/images/projects/project-01/image-03.jpg"
+  - "/images/projects/project-01/devops4.png"
+  - "/images/projects/project-01/devops3.png"
 team:
-  - name: "John Doe"
-    role: "Software Engineer"
-    avatar: "/images/avatar.jpg"
-    linkedIn: "https://www.linkedin.com/company/once-ui/"
-link: "https://once-ui.com/"
+  - name: "Arunpranav"
+    role: "DevSecOps Engineer"
+    avatar: "/images/arun.JPG"
+    linkedIn: "https://www.linkedin.com/in/arunpranav-ks/"
+link: "https://google.com"
 ---
 
 ## Overview
 
-In this project, I focused on automating the often tedious design handover process. The goal was to create a pipeline that converts Figma designs directly into clean, production-ready code. By integrating design tokens, component libraries, and automated workflows, this solution significantly reduced the time spent on translating design assets into code, while maintaining design consistency across the product.
+In modern software development, speed is king—but without security, speed can be dangerous. This case study explores how our engineering team applied DevSecOps principles to build a secure, automated CI/CD pipeline. The result? Faster delivery, fewer vulnerabilities, and better alignment between developers, security teams, and operations.
 
 ## Key Features
 
-- **Figma Plugin Integration**: Developed a custom Figma plugin that extracts design tokens such as colors, typography, and spacing values, and exports them in a format compatible with our codebase.
-- **Code Generation**: Integrated an automated process that translates Figma components into React code using a combination of design tokens and pre-built component templates. This allowed developers to focus more on logic and less on repetitive UI coding.
-- **Continuous Sync**: Established a CI/CD pipeline that continuously synchronizes design changes from Figma to the codebase, ensuring design updates are reflected instantly without manual intervention.
-- **Scalable Design System**: Leveraged a design system that remains the single source of truth for both designers and developers, making it easy to maintain consistency even as the product evolves.
+- Static Code Analysis (SAST): Integrated automated scanners into the pipeline to catch insecure coding patterns early and provide developers with instant feedback during pull requests.
+
+- Dependency and Container Scanning: Implemented automated scans to flag vulnerable libraries and insecure container images before deployment.
+
+- Secrets Management: Added tools to detect and block hardcoded secrets in repositories, reducing the risk of accidental credential leaks.
+
+- Policy-as-Code: Enforced compliance rules (e.g., encryption, IAM best practices) directly in the pipeline using tools like Open Policy Agent.
+
+- Continuous Monitoring: Linked the pipeline to observability tools (Prometheus, Grafana, Alertmanager) for real-time visibility into deployments and runtime security issues.
+
 
 ## Technologies Used
 
-- **Figma API**: For extracting design tokens and component data directly from the Figma designs.
-- **React and Next.js**: For building the front-end codebase with clean, reusable components.
-- **Styled-Components**: For managing styles dynamically using design tokens.
-- **GitHub Actions**: For automating the pipeline and syncing design changes to the repository.
+- SonarQube / Semgrep: For static application security testing (SAST).
 
+- Trivy / OWASP Dependency-Check: For container and dependency scanning.
+
+- HashiCorp Vault / GitHub Advanced Security: For secrets detection and management.
+
+- Terraform + OPA (Open Policy Agent): For Infrastructure-as-Code compliance.
+
+- **GitHub Actions / Jenkins**: For automating the CI/CD pipeline.
 ## Challenges and Learnings
 
-One of the biggest challenges was ensuring that the generated code was clean and maintainable. This involved setting up intelligent mapping between Figma components and React code structures, as well as managing edge cases like responsive design and conditional rendering. Additionally, the continuous synchronization required a robust error-handling system to prevent conflicts during development.
+One of the biggest challenges was balancing developer speed with security requirements. Initial adoption met resistance because scans slowed down builds. We overcame this by tuning scan thresholds, running fast checks on pull requests, and shifting heavier scans to nightly builds. Another challenge was aligning multiple teams (dev, ops, security) on common tooling and workflows, which required training and clear documentation.
 
 ## Outcome
 
-The automated Figma to code pipeline has streamlined the handoff process, cutting down design-to-development time by 40%. Designers now have more confidence that their designs will be accurately translated into code, and developers can focus on more complex logic and feature development. This project has proven the value of automation in bridging the gap between design and development.
+The new DevSecOps pipeline reduced vulnerabilities reaching staging by 70%, cut down manual security review time by half, and gave developers confidence that security checks were running automatically without slowing their work. Compliance audits also became easier thanks to policy-as-code and automated reporting.
 
 ---
 
-This project demonstrates your ability to leverage automation and streamline workflows, which is highly relevant for design engineering portfolios focused on efficiency and innovation.
+This project demonstrates your ability to embed security directly into CI/CD pipelines, showcasing not just technical expertise but also a strong understanding of how DevSecOps drives both efficiency and resilience in modern software delivery.

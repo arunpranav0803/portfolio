@@ -1,45 +1,45 @@
 ---
-title: "Building Once UI, a Customizable Design System"
+title: "Real-Time API Monitoring with Prometheus,Grafana & Blackbox Exporter"
 publishedAt: "2024-04-08"
-summary: "Development of a flexible and highly customizable design system using Next.js for front-end and Figma for design collaboration."
+summary: "Securing and automating AWS infrastructure with DevSecOps practices, while implementing endpoint protection, API monitoring, and CI/CD pipelines for resilient deployments."
 images:
-  - "/images/projects/project-01/cover-01.jpg"
-  - "/images/projects/project-01/cover-02.jpg"
-  - "/images/projects/project-01/cover-03.jpg"
-  - "/images/projects/project-01/cover-04.jpg"
+  - "/images/projects/project-01/1detail.png"
+  - "/images/projects/project-01/3detail.png"
+  - "/images/projects/project-01/2.detail.png"
+  - "/images/projects/project-01/4detail.png"  
 team:
   - name: "Selene Yu"
     role: "Software Engineer"
-    avatar: "/images/avatar.jpg"
-    linkedIn: "https://www.linkedin.com/company/once-ui/"
+    avatar: "/images/arun.JPG"
+    linkedIn: "https://www.linkedin.com/in/arunpranav-ks/"
   - name: "Jane Smith"
     role: "Product Manager"
-    avatar: "/images/projects/project-01/avatar-01.jpg"
-    linkedIn: "https://www.linkedin.com/company/once-ui/"
+    avatar: "/images/projects/project-01/arun.jpeg"
+    linkedIn: "https://www.linkedin.com/in/arunpranav-ks/"
 ---
 
 ## Overview
 
-Development of a flexible and highly customizable design system using Next.js for front-end and Figma for design collaboration.
+Designed and deployed a real-time API monitoring solution to ensure high availability and quick failure detection. By integrating Prometheus, Blackbox Exporter, Alertmanager, and Grafana, the system continuously probes API endpoints, visualizes health metrics, and sends proactive alerts when issues arise.
 
 ## Key Features
 
-- **Component Library**: Built a set of modular, reusable UI components using React and styled-components in Next.js, focusing on accessibility and responsiveness.
-- **Theming and Customization**: Integrated a theming system that allows easy switching and customization of color palettes, typography, and layout styles using CSS variables and Figma tokens.
-- **Figma Integration**: Collaborated closely with designers by setting up a shared design library in Figma. This library was synchronized with the codebase, ensuring design handoffs were seamless and that design tokens remained consistent across both platforms.
-- **Documentation and Usage Guidelines**: Developed comprehensive documentation with Storybook to showcase components, usage patterns, and best practices, ensuring the design system is easy to adopt by other teams.
+- API Endpoint Probing: Configured Blackbox Exporter to monitor both public and private APIs for uptime and response time.
 
+- Metrics Collection: Prometheus scrapes probe results and provides a centralized data source for analysis.
+
+- Alerting System: Alertmanager sends instant notifications via email when endpoints become unresponsive.
+
+- Dashboards & Visualization: Grafana dashboards display real-time API health, latency, and uptime trends.
+
+- Local Deployment: Entire setup deployed on a Multipass Ubuntu VM for testing, successfully simulating production-grade monitoring.
 ## Technologies Used
 
-- **Next.js**: For fast, server-rendered React applications.
-- **Figma**: For creating and managing design assets and prototypes.
-- **Styled-Components**: For styling React components with a modular, themable approach.
-- **Storybook**: For building an interactive, documented component library.
-
+- Prometheus, Blackbox Exporter, Alertmanager, Grafana, Multipass Ubuntu VM.
 ## Challenges and Learnings
 
-One key challenge was balancing the need for flexibility with the desire to maintain design consistency. The solution involved creating well-defined design tokens and establishing clear guidelines for when and how components could be customized. Additionally, setting up effective collaboration workflows between designers and developers using Figma and Git was a learning experience that greatly improved the process.
+A key challenge was ensuring secure monitoring of private APIs without exposing sensitive endpoints. Solved this by fine-tuning Blackbox Exporter modules and Prometheus scrape configs. Learned how to tune alert thresholds to avoid false positives while maintaining reliability.
 
 ## Outcome
 
-The design system is now actively used across multiple projects, leading to faster development cycles, fewer design inconsistencies, and improved collaboration between design and development teams. It has become a foundation for scaling our products efficiently while ensuring a cohesive user experience.
+Implemented a lightweight, scalable, and production-ready monitoring solution capable of tracking thousands of APIs. The setup improved incident response by enabling early detection, real-time dashboards, and proactive alerts—leading to higher reliability and observability.
