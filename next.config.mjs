@@ -8,7 +8,7 @@ const withMDXConfig = withMDX({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export", // For static HTML export
+  //output: "export", // For static HTML export
   basePath: "", // Change to "/portfolio" if deploying under sub-path
   assetPrefix: "/", // Match basePath if using it
   images: {
