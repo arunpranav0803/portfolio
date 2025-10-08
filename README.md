@@ -1,8 +1,8 @@
 # **Magic Portfolio by Once UI**
 
-View the [demo here](https://demo.magic-portfolio.com).
+View the [demo here](https://arunpranavks.vercel.app/).
 
-![Magic Portfolio](https://demo.magic-portfolio.com/images/og/home.jpg)
+![Magic Portfolio](https://arunpranavks.vercel.app//images/og/home.jpg)
 
 
 # **Getting started**

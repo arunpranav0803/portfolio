@@ -66,6 +66,20 @@ export default function About() {
         }}
       />
       <Schema
+  as="organization" // use "organization" if your component doesn't support "Person"
+  title="Arunpranav KS"
+  description="DevSecOps Engineer & Security Analyst specializing in AWS, Kubernetes, and cloud security automation."
+  baseURL={baseURL}
+  path="/about"
+  image={`${baseURL}/images/arunsuit.jpg`}
+  author={{
+    name: "Arunpranav KS",
+    url: "https://arunpranavks.vercel.app",
+    image: `${baseURL}/images/arunsuit.jpg`,
+  }}
+/>
+
+      <Schema
   as="website"
   title="Arunpranav KS"
   description="DevSecOps Engineer & Security Analyst specializing in AWS, Kubernetes, and cloud security automation."
