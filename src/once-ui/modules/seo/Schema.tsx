@@ -25,7 +25,7 @@ export interface SchemaProps {
       "@context": "https://schema.org",
       "@type": "WebSite",
       name: "arunpranavks",
-      url: "https://arunpranavks.vercel.app"
+      url: "arunpranavks.vercel.app"
     }),
   }}
 />

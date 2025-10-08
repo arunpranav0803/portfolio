@@ -61,7 +61,7 @@ export default function About() {
         image={`${baseURL}/og?title=${encodeURIComponent(about.title)}`}
         author={{
           name: person.name,
-          url: `https://arunpranavks.vercel.app`,
+          url: `arunpranavks.vercel.app`,
           image: `${baseURL}${person.avatar}`,
         }}
       />
@@ -74,7 +74,7 @@ export default function About() {
   image={`${baseURL}/images/arunsuit.jpg`}
   author={{
     name: "Arunpranav KS",
-    url: "https://arunpranavks.vercel.app",
+    url: "arunpranavks.vercel.app",
     image: `${baseURL}/images/arunsuit.jpg`,
   }}
 />
@@ -88,7 +88,7 @@ export default function About() {
   image={`${baseURL}${person.avatar}`}
   author={{
     name: person.name,
-    url: "https://arunpranavks.vercel.app",
+    url: "arunpranavks.vercel.app",
     image: `${baseURL}${person.avatar}`,
   }}
 />
