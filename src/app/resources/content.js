@@ -332,7 +332,7 @@ const gallery = {
     // },
     {
       src: "/images/gallery/1755711924796.jpg",
-      alt: "image",
+      alt: "Arunpranavks",
       orientation: "horizontal",
     },
     // {
@@ -342,17 +342,17 @@ const gallery = {
     // },
     {
       src: "/images/gallery/full.JPG",
-      alt: "image",
+      alt: "arunpranavks",
       orientation: "vertical",
     },
     {
       src: "/images/gallery/1755711886703.jpg",
-      alt: "image",
+      alt: "arunpranavks",
       orientation: "horizontal",
     },
     {
       src: "/images/gallery/1755711922135.jpg",
-      alt: "image",
+      alt: "arunpranavks",
       orientation: "horizontal",
     },
     // {
@@ -370,12 +370,12 @@ const gallery = {
     
     {
       src: "/images/gallery/IMG_1723.JPG",
-      alt: "image",
+      alt: "arunpranavks",
       orientation: "vertical",
     },
     {
       src: "/images/gallery/1755711905843.jpg",
-      alt: "image",
+      alt: "arunpranavks",
       orientation: "horizontal",
     },
     
