@@ -17,6 +17,19 @@ export interface SchemaProps {
     image?: string;
   };
 }
+<Script
+  id="schema-website"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      name: "arunpranavks",
+      url: "https://arunpranavks.vercel.app"
+    }),
+  }}
+/>
+
 
 const schemaTypeMap = {
   website: "WebSite",
