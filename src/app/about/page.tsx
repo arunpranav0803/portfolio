@@ -61,10 +61,24 @@ export default function About() {
         image={`${baseURL}/og?title=${encodeURIComponent(about.title)}`}
         author={{
           name: person.name,
-          url: `${baseURL}${about.path}`,
+          url: `https://arunpranavks.vercel.app`,
           image: `${baseURL}${person.avatar}`,
         }}
       />
+      <Schema
+  as="website"
+  title="Arunpranav KS"
+  description="DevSecOps Engineer & Security Analyst specializing in AWS, Kubernetes, and cloud security automation."
+  baseURL={baseURL}
+  path="/about"
+  image={`${baseURL}${person.avatar}`}
+  author={{
+    name: person.name,
+    url: "https://arunpranavks.vercel.app",
+    image: `${baseURL}${person.avatar}`,
+  }}
+/>
+
       {about.tableOfContent.display && (
         <Column
           left="0"
