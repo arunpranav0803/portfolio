@@ -1,5 +1,5 @@
 import { Logo } from "@/once-ui/components";
-
+<meta name="google-site-verification" content="_poozRdGX4_mfdi1Z9rYWlfNKVu3TFnHlcYL3pDfON8" />
 const person = {
   firstName: "ARUNPRANAV",
   lastName: "KS",
